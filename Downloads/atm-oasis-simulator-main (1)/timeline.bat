@@ -3,139 +3,127 @@ echo Starting ATM Simulator Timeline...
 
 REM ----------- AUGUST -----------
 
-echo // Initial setup >> package.json
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-08-10T10:30:00
 set GIT_COMMITTER_DATE=2025-08-10T10:30:00
 git commit --date="2025-08-10T10:30:00" -m "Initial project setup with React + Vite"
 
-echo // README >> README.md
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-08-12T14:00:00
 set GIT_COMMITTER_DATE=2025-08-12T14:00:00
 git commit --date="2025-08-12T14:00:00" -m "Added project documentation"
 
-echo // Base app >> src/App.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-14T17:20:00
-set GIT_COMMITTER_DATE=2025-08-14T17:20:00
-git commit --date="2025-08-14T17:20:00" -m "Created base app structure"
+set GIT_AUTHOR_DATE=2025-08-15T17:20:00
+set GIT_COMMITTER_DATE=2025-08-15T17:20:00
+git commit --date="2025-08-15T17:20:00" -m "Created base app structure"
 
-echo // UI components >> src/components/ui
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-16T11:30:00
-set GIT_COMMITTER_DATE=2025-08-16T11:30:00
-git commit --date="2025-08-16T11:30:00" -m "Integrated UI components"
+set GIT_AUTHOR_DATE=2025-08-18T11:30:00
+set GIT_COMMITTER_DATE=2025-08-18T11:30:00
+git commit --date="2025-08-18T11:30:00" -m "Integrated UI components"
 
-echo // Bank logo >> src/components/BankLogo.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-18T15:00:00
-set GIT_COMMITTER_DATE=2025-08-18T15:00:00
-git commit --date="2025-08-18T15:00:00" -m "Added bank logo"
+set GIT_AUTHOR_DATE=2025-08-20T15:00:00
+set GIT_COMMITTER_DATE=2025-08-20T15:00:00
+git commit --date="2025-08-20T15:00:00" -m "Added bank logo component"
 
-echo // Login page >> src/pages/Login.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-20T12:40:00
-set GIT_COMMITTER_DATE=2025-08-20T12:40:00
-git commit --date="2025-08-20T12:40:00" -m "Implemented login page"
+set GIT_AUTHOR_DATE=2025-08-22T12:40:00
+set GIT_COMMITTER_DATE=2025-08-22T12:40:00
+git commit --date="2025-08-22T12:40:00" -m "Implemented login page"
 
-echo // Signup >> src/pages/Signup.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-22T16:10:00
-set GIT_COMMITTER_DATE=2025-08-22T16:10:00
-git commit --date="2025-08-22T16:10:00" -m "Added signup functionality"
+set GIT_AUTHOR_DATE=2025-08-24T16:10:00
+set GIT_COMMITTER_DATE=2025-08-24T16:10:00
+git commit --date="2025-08-24T16:10:00" -m "Added signup functionality"
 
-echo // Context >> src/context/AccountContext.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-24T11:00:00
-set GIT_COMMITTER_DATE=2025-08-24T11:00:00
-git commit --date="2025-08-24T11:00:00" -m "Setup account context"
+set GIT_AUTHOR_DATE=2025-08-27T11:00:00
+set GIT_COMMITTER_DATE=2025-08-27T11:00:00
+git commit --date="2025-08-27T11:00:00" -m "Setup account context"
 
-echo // ATM dashboard >> src/pages/ATM.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-26T14:30:00
-set GIT_COMMITTER_DATE=2025-08-26T14:30:00
-git commit --date="2025-08-26T14:30:00" -m "Created ATM dashboard"
+set GIT_AUTHOR_DATE=2025-08-29T14:30:00
+set GIT_COMMITTER_DATE=2025-08-29T14:30:00
+git commit --date="2025-08-29T14:30:00" -m "Created ATM dashboard"
 
-echo // Deposit >> src/pages/Deposit.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-08-28T13:20:00
-set GIT_COMMITTER_DATE=2025-08-28T13:20:00
-git commit --date="2025-08-28T13:20:00" -m "Implemented deposit feature"
-
-echo // Withdraw >> src/pages/Withdraw.tsx
-git add .
-set GIT_AUTHOR_DATE=2025-08-30T18:00:00
-set GIT_COMMITTER_DATE=2025-08-30T18:00:00
-git commit --date="2025-08-30T18:00:00" -m "Added withdraw feature"
+set GIT_AUTHOR_DATE=2025-08-31T13:20:00
+set GIT_COMMITTER_DATE=2025-08-31T13:20:00
+git commit --date="2025-08-31T13:20:00" -m "Implemented deposit and withdraw features"
 
 REM ----------- SEPTEMBER -----------
 
-echo // Balance enquiry >> src/pages/BalanceEnquiry.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-02T10:30:00
 set GIT_COMMITTER_DATE=2025-09-02T10:30:00
 git commit --date="2025-09-02T10:30:00" -m "Implemented balance enquiry"
 
-echo // Fast cash >> src/pages/FastCash.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-04T15:00:00
 set GIT_COMMITTER_DATE=2025-09-04T15:00:00
 git commit --date="2025-09-04T15:00:00" -m "Added fast cash feature"
 
-echo // Mini statement >> src/pages/MiniStatement.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-06T12:45:00
 set GIT_COMMITTER_DATE=2025-09-06T12:45:00
 git commit --date="2025-09-06T12:45:00" -m "Implemented mini statement"
 
-echo // Pin change >> src/pages/PinChange.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-08T16:20:00
 set GIT_COMMITTER_DATE=2025-09-08T16:20:00
 git commit --date="2025-09-08T16:20:00" -m "Added PIN change feature"
 
-echo // Interest calc >> src/pages/InterestCalculator.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-10T11:15:00
 set GIT_COMMITTER_DATE=2025-09-10T11:15:00
 git commit --date="2025-09-10T11:15:00" -m "Added interest calculator"
 
-echo // Account created >> src/pages/AccountCreated.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-09-12T14:40:00
-set GIT_COMMITTER_DATE=2025-09-12T14:40:00
-git commit --date="2025-09-12T14:40:00" -m "Created account confirmation page"
+set GIT_AUTHOR_DATE=2025-09-13T14:40:00
+set GIT_COMMITTER_DATE=2025-09-13T14:40:00
+git commit --date="2025-09-13T14:40:00" -m "Created account confirmation page"
 
-echo // Database logic >> src/pages/Database.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-09-15T17:10:00
-set GIT_COMMITTER_DATE=2025-09-15T17:10:00
-git commit --date="2025-09-15T17:10:00" -m "Added database simulation logic"
+set GIT_AUTHOR_DATE=2025-09-16T17:10:00
+set GIT_COMMITTER_DATE=2025-09-16T17:10:00
+git commit --date="2025-09-16T17:10:00" -m "Added database simulation logic"
 
-echo // Bug fix >> src/hooks/use-toast.ts
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-09-18T13:30:00
-set GIT_COMMITTER_DATE=2025-09-18T13:30:00
-git commit --date="2025-09-18T13:30:00" -m "Fixed UI notification issues"
+set GIT_AUTHOR_DATE=2025-09-19T13:30:00
+set GIT_COMMITTER_DATE=2025-09-19T13:30:00
+git commit --date="2025-09-19T13:30:00" -m "Fixed UI bugs and notifications"
 
-echo // Mobile support >> src/hooks/use-mobile.tsx
+echo %random% >> progress.txt
 git add .
-set GIT_AUTHOR_DATE=2025-09-20T16:00:00
-set GIT_COMMITTER_DATE=2025-09-20T16:00:00
-git commit --date="2025-09-20T16:00:00" -m "Improved mobile responsiveness"
+set GIT_AUTHOR_DATE=2025-09-22T16:00:00
+set GIT_COMMITTER_DATE=2025-09-22T16:00:00
+git commit --date="2025-09-22T16:00:00" -m "Improved mobile responsiveness"
 
-echo // Utils >> src/lib/utils.ts
-git add .
-set GIT_AUTHOR_DATE=2025-09-23T18:20:00
-set GIT_COMMITTER_DATE=2025-09-23T18:20:00
-git commit --date="2025-09-23T18:20:00" -m "Optimized utility functions"
-
-echo // Final cleanup >> src/App.tsx
+echo %random% >> progress.txt
 git add .
 set GIT_AUTHOR_DATE=2025-09-25T17:45:00
 set GIT_COMMITTER_DATE=2025-09-25T17:45:00
-git commit --date="2025-09-25T17:45:00" -m "Final cleanup and improvements"
+git commit --date="2025-09-25T17:45:00" -m "Final cleanup and optimization"
 
 echo Done!
 pause
