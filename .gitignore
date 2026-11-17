@@ -3,9 +3,13 @@ node_modules/
 .pnp
 .pnp.js
 
-# Production build outputs
+# Production build outputs & cache
 dist/
 build/
+.vite/
+
+# Legacy and nested directories
+Downloads/
 
 # Local Environment & Secrets
 .env
